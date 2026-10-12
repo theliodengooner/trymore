@@ -1,0 +1,92 @@
+/* --- BACKGROUND & BASE CONFIGURATION --- */
+body {
+    background-image: url("https://gstatic.com") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    color: #004B76 !important; /* Dark ocean blue main text */
+}
+
+/* --- THE MAIN CONTAINER --- */
+/* Changed to an ice-blue tint with high opacity for readability over your background */
+.container.main {
+    background: rgba(225, 241, 255, 0.88) !important;
+    border: 1px solid #004B76 !important;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 75, 118, 0.3);
+}
+
+/* --- HEADERS & TITLES --- */
+h1, h2, h3, .b, strong {
+    color: #002D4A !important; /* Deep navy/ocean blue headers */
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+/* --- SIDEBAR & PANELS --- */
+/* Matching ice-blue base color for panels */
+.sidebar, .panel, .panel-main {
+    background: rgba(208, 231, 255, 0.9) !important;
+    border: 1px solid #004B76 !important;
+    color: #004B76 !important;
+}
+
+/* --- NAVIGATION BAR --- */
+.navbar {
+    background: #002D4A !important; /* Dark ocean base for navbar */
+    border-bottom: 2px solid #004B76 !important;
+}
+
+.navbar li a {
+    color: #FFFFFF !important; /* Kept white for contrast against the dark navbar bar */
+}
+
+.navbar li a:hover {
+    background: #004B76 !important;
+    color: #FFFFFF !important;
+}
+
+/* --- CAVE & BEETLE GRIDS --- */
+.cave-grid, .beetle-grid {
+    background: rgba(208, 231, 255, 0.9) !important;
+    border: 1px solid #004B76 !important;
+    color: #004B76 !important;
+}
+
+/* --- TABLES & PROGRESS BARS --- */
+table.table, td, th {
+    background: transparent !important;
+    color: #004B76 !important;
+}
+
+.progress {
+    background-color: #BADAFF !important; /* Slightly darker ice blue for container background */
+    border: 1px solid #004B76 !important;
+}
+
+.progress-bar {
+    background-color: #004B76 !important;
+}
+
+/* --- LINKS --- */
+a:link, a:visited {
+    color: #005F96 !important; /* Vivid ocean blue for links */
+    text-decoration: underline;
+}
+
+a:hover, a:active {
+    color: #002D4A !important; /* Darkens on hover */
+    text-shadow: 0px 0px 2px rgba(0, 75, 118, 0.3);
+}
+
+/* --- BREADCRUMBS & FOOTER --- */
+.breadcrumb {
+    background: rgba(208, 231, 255, 0.8) !important;
+    color: #004B76 !important;
+}
+
+.footer {
+    background: rgba(225, 241, 255, 0.9) !important;
+    border-top: 1px solid #004B76 !important;
+    color: #004B76 !important;
+}
